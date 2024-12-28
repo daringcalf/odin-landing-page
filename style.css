@@ -12,8 +12,12 @@ html {
 
 body {
   margin: 0 auto;
-  padding: 0 2rem 2rem;
+  padding: 0;
   max-width: 1200px;
+}
+
+.section1 {
+  padding: 0 2rem;
 }
 
 .navbar ul {
@@ -85,4 +89,46 @@ button {
 
 .section1 header img {
   width: 50%;
+}
+
+
+.section2 {
+  padding: 2rem 2rem 4rem 2rem;
+  background-color: white;
+  color: black
+}
+
+.info-header {
+  margin: 0 0 2rem 0;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  text-align: center;
+}
+
+.info-content {
+  display: flex;
+  gap: 2rem;
+  padding: 0 10%;
+}
+
+.info-content-item {
+  flex: 1 1 200px;
+  gap: 1rem;
+}
+
+.info-content-item p {
+  margin: 0;
+  text-align: left;
+  text-align-last: center;
+}
+
+.info-content-item img {
+  width: 100%;
+  border: 2px solid #3882f6;
+  border-radius: 0.5rem;
+}
+
+.info-content-item img:hover {
+  border-color: rgb(228, 58, 223);
 }
