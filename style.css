@@ -1,14 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
   color: white;
-  box-sizing: border-box;
   background-color: #1f2937;
   font-family: roboto, sans-serif;
 }
 
-*::before,
-*::after {
-  box-sizing: inherit;
-}
 
 body {
   margin: 0 auto;
@@ -21,7 +20,6 @@ p {
 
 section {
   min-width: 900px;
-  box-sizing: border-box;
 }
 
 .section1 {
@@ -32,7 +30,6 @@ section {
 section>div {
   width: 800px;
   margin: auto;
-  box-sizing: border-box;
 }
 
 .navbar ul {
