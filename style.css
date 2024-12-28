@@ -36,6 +36,7 @@ section>div {
   display: flex;
   list-style: none;
   padding: 0;
+  gap: 1.5rem;
 }
 
 .navbar ul li:first-child {
@@ -44,18 +45,13 @@ section>div {
 
 .navbar ul li a {
   display: inline-block;
-  padding: 0px 1rem;
   text-align: center;
   text-decoration: none;
   color: white;
 }
 
-.navbar ul li:first-child a {
-  padding-left: 0;
-}
-
-.navbar ul li:last-child a {
-  padding-right: 0;
+.navbar ul li a:hover {
+  color: #3882f6;
 }
 
 .section1 header {
