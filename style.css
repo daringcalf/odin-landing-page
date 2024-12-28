@@ -16,6 +16,10 @@ body {
   max-width: 1200px;
 }
 
+p {
+  margin: 0;
+}
+
 .section1 {
   padding: 0 2rem;
 }
@@ -118,7 +122,6 @@ button {
 }
 
 .info-content-item p {
-  margin: 0;
   text-align: left;
   text-align-last: center;
 }
@@ -131,4 +134,26 @@ button {
 
 .info-content-item img:hover {
   border-color: rgb(228, 58, 223);
+}
+
+
+.section3 {
+  background-color: #e5e7eb;
+  padding: 4rem 10%;
+}
+
+.quote-content {
+  font-size: 36px;
+  font-weight: 200;
+  color: #1f2937;
+  font-style: italic;
+  padding: 0 2rem 2rem 2rem;
+}
+
+.quote-author {
+  font-size: 24px;
+  font-weight: 600;
+  color: black;
+  text-align: right;
+  padding: 0 4rem 0 0;
 }
