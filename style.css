@@ -37,10 +37,12 @@ section>div {
   list-style: none;
   padding: 0;
   gap: 1.5rem;
+  align-items: center;
 }
 
 .navbar ul li:first-child {
   margin-right: auto;
+  font-size: 1.5rem;
 }
 
 .navbar ul li a {
